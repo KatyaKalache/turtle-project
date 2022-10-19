@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>YET Another New Title</title>
     </head>
     <body>
-        <img src="static/turtle.jpg" width="150" height="200">
+        <img src="static/turtle.jpg" width="300 " height="200">
         <h1>Heading 1</h1>
-        <h2>We can have multiple sub-headings</h2>
+        <h2 id="mido">Heading 2</h2>
         <ul>
             <li>Element1</li>
             <li>Element2</li>
@@ -16,4 +16,11 @@
             <li>Element8</li>
         </ul>
     </body>
+    <script>
+        function whatever(){
+            
+            return "Hi from Mido."
+        }
+        document.getElementById('mido').innerHTML = whatever();
+    </script>
 </html>
